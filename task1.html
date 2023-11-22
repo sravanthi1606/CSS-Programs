@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--Applying Inline CSS  -->
+
+    <h1 style="color: red;">CSS(Cascading Style Sheets)</h1>
+    <p style="color:green">CSS is used to apply the style in the webpage which is made up of HTML elements.It describes the look of a webpage</p>
+    <br>
+    <h2 style="color: purple;">Three ways to appply CSS</h2>
+    <ol style="color: purple;">
+        <li>Inline Css</li>
+        <li>Internal CSS</li>
+        <li>External CSS</li>
+    </ol>
+    <br>
+    <h3 style="color: red;">External CSS:</h3>
+    <p style="color: green">With an external style sheet, you can change the look of an entire website by changing just one file!
+       Each HTML page must include a reference to the external style sheet file inside the <link> element, inside the head section.
+    </p>
+    Example:
+        <pre style="color: brown;">
+        &lt;head&gt;
+        &lt;link rel="stylesheet" href="mystyle.css"&gt;
+        &lt;/head&gt;
+        </pre> 
+    <br>
+    <h3 style="color: red;">Internal CSS</h3>
+    <p style="color: green">An internal style sheet may be used if one single HTML page has a unique style.
+        The internal style is defined inside the &lt;style > element, inside the head section.
+    </p>
+    Example:
+        <pre style="color: brown;">
+        &lt;head&gt;
+        &lt;/style&gt;
+        h1 {
+            color: maroon;
+            margin-left: 40px;
+          }
+        &lt;/style&gt;
+        &lt;/head&gt;
+        </pre>
+    <br>
+    <h3 style="color: red;">Inline CSS</h3>
+    <p style="color: green">An inline style may be used to apply a unique style for a single element.
+       To use inline styles, add the style attribute to the relevant element. The style attribute can contain any CSS property.
+    </p>
+    Example:
+        <pre style="color: brown;">
+        &lt;body&gt;
+        &lt;h1 style="color:blue;text-align:center;">This is a heading &gt;/h1&gt;
+        &lt;p style="color:red;">This is a paragraph. &lt;/p&gt;
+        &lt;/body&gt;
+        </pre>
+
+</body>
+</html>
