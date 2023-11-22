@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--Document on Inline,Internal,External CSS  -->
+
+    <h1>CSS(Cascading Style Sheets)</h1>
+    <p>CSS is used to apply the style in the webpage which is made up of HTML elements.It describes the look of a webpage</p>
+    <br>
+    <h2>Three ways to appply CSS</h2>
+    <ol>
+        <li>Inline Css</li>
+        <li>Internal CSS</li>
+        <li>External CSS</li>
+    </ol>
+    <br>
+    <h3>External CSS:</h3>
+    <p>With an external style sheet, you can change the look of an entire website by changing just one file!
+       Each HTML page must include a reference to the external style sheet file inside the <link> element, inside the head section.
+    </p>
+    Example:
+        <pre>
+        &lt;head&gt;
+        &lt;link rel="stylesheet" href="mystyle.css"&gt;
+        &lt;/head&gt;
+        </pre> 
+    <br>
+    <h3>Internal CSS</h3>
+    <p>An internal style sheet may be used if one single HTML page has a unique style.
+        The internal style is defined inside the &lt;style > element, inside the head section.
+    </p>
+    Example:
+        <pre>
+        &lt;head&gt;
+        &lt;/style&gt;
+        h1 {
+            color: maroon;
+            margin-left: 40px;
+          }
+        &lt;/style&gt;
+        &lt;/head&gt;
+        </pre>
+    <br>
+    <h3>Inline CSS</h3>
+    <p>An inline style may be used to apply a unique style for a single element.
+       To use inline styles, add the style attribute to the relevant element. The style attribute can contain any CSS property.
+    </p>
+    Example:
+        <pre>
+        &lt;body&gt;
+        &lt;h1 style="color:blue;text-align:center;">This is a heading &gt;/h1&gt;
+        &lt;p style="color:red;">This is a paragraph. &lt;/p&gt;
+        &lt;/body&gt;
+        </pre>
+
+</body>
+</html>
