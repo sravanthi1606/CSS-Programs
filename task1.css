@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.left{
+    background-color: grey;
+}
+.image img{
+    border: 1px solid brown;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-left: 35%;
+}
+.info{
+    text-align: center;
+}
+.info h1{
+    font-weight: 300;
+}
+.info p{
+    font-size: 15px;
+}
+.info a i{
+    padding: 5px;
+}
+.info a{
+    color: white;
+    display: block;
+    padding: 5px;
+    text-decoration: none;
+}
+.profile{
+    padding: 30px;
+}
+.profile h1{
+    font-size: 20px;
+}
+.skills{
+    padding-left: 30px;
+}
+.skills ul{
+    padding-left: 30px;
+}
+.edu{
+    margin-top: 30px;
+}
+.edu h3{
+    text-decoration: underline;
+}
+.edu table,td,th{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+}
+.hob{
+    padding-top: 20px;
+}
+.hob ol {
+    padding-left: 30px;
+}
+.str{
+    padding-top: 20px;
+}
+.str ul {
+    padding-left: 30px;
+}
+
