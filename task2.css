@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.top{
+    background-color: #5938d5;
+    color: white;
+}
+#aa{
+   font-weight: bold; 
+}
+.top p span{
+    font-weight: 400;
+}
+.top a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.top a:hover{
+    color: palevioletred;
+    text-decoration: none;
+}
+.top a:visited{
+    color: red;
+    text-decoration: none;
+}
+
+.middle{
+    background-color: rgba(255,182,193,0.5);
+    font-size: 20px;
+}
+.para p{
+    padding-top: 10px;
+}
+.para1{
+    padding: 5px 0px 0px 5px;
+}
+.para2{
+    padding: 20px 0px 0px 5px;
+}
+input[type="text"]{
+    padding: 10px;
+}
+.para3{
+    padding: 20px 0px 0px 5px;
+}
+.para4{
+    padding: 20px 0px 0px 5px;
+}
+input[type="date"]{
+    padding: 10px 50px 10px 50px;
+}
+.para5{
+    padding: 20px 0px 0px 5px;
+}
+.para6{
+    padding: 20px 0px 0px 5px;
+}
+.para7{
+    padding: 20px 0px 0px 5px;
+}
+.para8{
+    padding: 20px 0px 0px 5px;
+}
+.para9{
+    padding: 20px 0px 0px 5px;
+}
+.para10{
+    padding: 20px 0px 0px 5px;
+}
+.para11{
+    padding: 20px 0px 0px 5px;
+}
+.para12{
+    padding: 20px 0px 0px 5px;
+}
+.para13{
+    padding: 20px 0px 0px 5px;
+}
+.para14{
+    padding: 20px 0px 0px 5px;
+}
+.para15{
+    padding: 20px 0px 0px 5px;
+}
+.para16{
+    padding: 20px 0px 0px 5px;
+}
+.para17{
+    padding: 20px 0px 0px 5px;
+}
+.para18{
+    padding: 20px 0px 0px 5px;
+}
+.para18 input{
+    background-color: #5938d5;
+    padding: 10px 50px 10px 50px;
+    color: white;
+}
+.para19{
+    padding: 20px 0px 0px 5px;
+}
+.para18 a{
+    text-decoration: underline;
+}
+
+.footer{
+    background-color: rgb(198, 178, 211);
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+input:required{
+    color: blue;
+    background-color: palevioletred;
+    border-color: red;
+}
+input:optional{
+    background-color: aqua;
+}
+
