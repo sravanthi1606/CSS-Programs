@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="./task1.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css">
+
+</head>
+<body>
+    <!-- Create a form and apply pseudo class selectors and pseudo element selectors for form validations -->
+
+    <div class="main">
+        <div class="container"> 
+            <div class="top">
+            <h1>HCLTech Off Campus - Freshers Drive</h1>
+            <p>Greetings</p>
+            <p>We are hiring freshers for various roles at HCLTech</p>
+            <p>Please find the company profile and other details below</p>
+            <h2>Company profile:</h2>
+            <p>HCLTech is a global technology company, home to 222,000+ people across 60 countries, delivering 
+                industry-leading capabilities centered around digital, engineering and cloud, powered by a broad 
+                portfolio of technology services and products. We work with clients across all major verticals,
+                providing industry solutions for financial services, manufacturing, life sciences and healthcare,
+                technology and services, telecom and media, retail and CPG and public services. Consolidated 
+                revenues as of 12 months ending December 2022 totalled $12.3 billion.
+            </p>
+            <h2>Position: IT Service Desk</h2>
+            <p id="aa">Experience:<span> 0 to 3 years</span></p>
+            <p id="aa">Qualification:<span></span>Any graduate</p>
+            <p id="aa">Percentage in class XII:<span>60% or more</span></p>
+            <p id="aa">Percentage in graduation:<span>60% or more</span></p>
+            <p id="aa">Salary: <span>INR 2.40 LPA CTC</span></p>
+            <p id="aa">Year of passing<span>Any Graduate</span></p>
+            <p>Candidates should hold a government address proof of Uttar Pradesh/ Maharashtra/ Madhya Pradesh.</p>
+            <p id="aa"><i>By providing your contact information and submitting the form, you authorize HCLTech to store your contact details and that you have read our privacy policy.</i></p>
+            <a href="https://www.hcltech.com/privacy-statement "><i>https://www.hcltech.com/privacy-statement </i></a>
+            </div>
+        </div> 
+    </div>
+    <div class="middle">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="para">
+                        <p>Required</p>
+                        <form action="#" method="post">
+                            <div class="para1">
+                                <label for="category" class="label1">1.Category</label><br>
+                                <input type="radio" id="fresher" name="category" value="Fresher">
+                                <label for="fresher">Fresher</label><br>
+                                <input type="radio" id="experienced" name="category" value="Experienced">
+                                <label for="experienced">Experienced</label><br>
+                            </div>
+                            <div class="para2">
+                                <label for="Name" class="label1">3.Full Name</label><br>
+                                <input type="text" id="Name" name="Name" placeholder="Enter your name"  pattern="[a-zA-Z]{0,20}" required>
+                            </div>
+                            <div class="para3">
+                                <label for="gender" class="label1">4.Gender</label><br>
+                                <input type="radio" id="male" name="Gender" value="male">
+                                <label for="male">Male</label><br>
+                                <input type="radio" id="female" name="gender" value="female">
+                                <label for="female">Female</label><br>
+                                <input type="radio" id="pre" name="gender" value="prefer not to say">
+                                <label for="pre">Prefer not to say</label><br>
+                            </div>
+                            <div class="para4">
+                                <label for="datebirthday" class="label1">5.Date Of Birth</label><br>
+                                <input type="date" id="datebirthday" name="Date-Of-Birth">
+                            </div>
+                            <div class="para5">
+                                <label for="address" class="label1">6.Address</label><br>
+                                <textarea name="address" id="address" cols="30" rows="5" placeholder="Enter Your Address" required></textarea>
+                            </div>
+                            <div class="para6">
+                                <label for="city" class="label1">7.City(As per Aadhar Card)</label><br>
+                                <input type="text" id="city" name="city" value="city" placeholder="Enter Your City">
+                            </div>
+                            <div class="para7">
+                                <label for="state" class="label1">8.State</label><br>
+                                <Select name="state" id="state">
+                                    <option value="Telangana">Telangana</option>
+                                    <option value="Andhra Pradesh">Andhra Pradesh</option>
+                                    <option value="Uttar Pradesh">Uttar Pradesh</option>
+                                    <option value="Maharashtra">Maharashtra</option>
+                                    <option value="Madhya Pradesh">Madhya Pradesh</option>
+                                    <option value="Others">others</option>
+                                </Select>
+                            </div>
+                            <div class="para8" class="label1">
+                                <label for="number">9.Mobile Number</label><br>
+                                <input type="tel" id="number" name="mobilenum"  pattern="[0-9]{0,10}" placeholder="Enter your Number" required>
+                            </div>
+                            <div class="para9" class="label1">
+                                <label for="altnumber"></label>10.Alternate Contact Number</label><br>
+                                <input type="tel" id="altnumber" name="mobilenum"  pattern="[0-9]{0,10}" placeholder="Enter your Alternate Number" required>
+                            </div>
+                            <div class="para10" class="label1">
+                                <label for="email">11.Email</label><br>
+                                <input type="email" id="email" name="email"  placeholder="Enter your Email" required>
+                            </div>
+                            <div class="para11">
+                                <label for="per10" class="label1">12.Class 10th percentage</label><br>
+                                <input type="radio"  name="per10" value="70% or above"> 70% or above <br>
+                                <input type="radio"  name="per10" value="65% to 69.99%"> 65% to 69.99% <br>
+                                <input type="radio"  name="per10" value="60% to 64.99%"> 60% to 64.99% <br>
+                                <input type="radio"  name="per10" value="Less than 60%"> Less than 60% <br>
+                            </div>
+                            <div class="para12">
+                                <label for="per12" class="label1">13.Class 12th percentage</label><br>
+                                <input type="radio"  name="per12" value="70% or above"> 70% or above <br>
+                                <input type="radio"  name="per12" value="65% to 69.99%"> 65% to 69.99% <br>
+                                <input type="radio"  name="per12" value="60% to 64.99%"> 60% to 64.99% <br>
+                                <input type="radio"  name="per12" value="Less than 60%"> Less than 60% <br>
+                            </div>
+                            <div class="para13">
+                                <label for="Course" class="label1">14.Graduation Course</label><br>
+                                <input type="radio"  name="Course" value="B.E/B.TECH(CSE/IT/ECE/EEE/EIE)"> B.E/B.TECH(CSE/IT/ECE/EEE/EIE) <br>
+                                <input type="radio"  name="Course" value="B.E/B.TECH(Other Branch)">B.E/B.TECH(Other Branch)<br>
+                                <input type="radio"  name="Course" value="B.Voc/B.Sc/BCA"> B.Voc/B.Sc/BCA"<br>
+                                <input type="radio"  name="Course" value="B.Com/BBA/BA">B.Com/BBA/BA <br>
+                                <input type="radio"  name="Course" value="Others">Others<br>
+                            </div>
+                            <div class="para14">
+                                <label for="per13" class="label1">15.Graduation percentage</label><br>
+                                <input type="radio"  name="per13" value="70% or above"> 70% or above <br>
+                                <input type="radio"  name="per13" value="65% to 69.99%"> 65% to 69.99% <br>
+                                <input type="radio"  name="per13" value="60% to 64.99%"> 60% to 64.99% <br>
+                                <input type="radio"  name="per13" value="Less than 60%"> Less than 60% <br>
+                            </div>
+                            <div class="para15">
+                                <label for="year" class="label1">16.Graduation - Year of Passing</label><br>
+                                <input type="text" id="year" name="year"  pattern="[0-9]{0,4}">
+                            </div>
+                            <div class="para16">
+                                <label for="college" class="label1">17.College/University Name</label><br>
+                                <input type="text" id="college" name="college" placeholder="Enter Your College Name" >
+                            </div>
+                            <div class="para17" >
+                                <label for="work" class="label1">18.Work Experience(If Any)</label><br>
+                                <input type="radio"  name="work" value="Fresher"> Fresher<br>
+                                <input type="radio"  name="work" value="0.6 - 1 year"> 0.6 - 1 year<br>
+                                <input type="radio"  name="work" value="1.1 - 2 year"> 1.1 - 2 year<br>
+                                <input type="radio"  name="work" value="2.1 - 3 year"> 2.1 - 3 year <br>
+                                <input type="radio"  name="work" value="3+ year"> 3+ year <br>
+                            </div>
+                            <div class="para18">
+                                <input type="submit" value="Submit">
+                            </div>
+                            <div class="para19" >
+                                <h6>Never give out your password. <a href="#">Report abuse</a></h6>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="foot1">
+                        <p>This content is created by the owner of the form. The data you submit will be sent to the form owner. Microsoft is not responsible for the privacy or security practices of its customers, including those of this form owner. Never give out your password.</p>
+                        <p>Powered by Microsoft Forms </p>
+                        <p>The owner of this form has not provided a privacy statement as to how they will use your response data. Do not provide personal or sensitive information.</p>
+                        <a href="#">Terms of Use</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
