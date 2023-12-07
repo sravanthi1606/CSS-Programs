@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=Dancing+Script:wght@400;500;700&family=Ephesis&family=Playfair+Display:ital@1&family=Roboto+Condensed:ital,wght@1,100&display=swap');
+
+.main{
+    display: grid;
+    grid-template-columns: 400px auto;
+}
+header{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    height: 60px;
+    display: grid;
+    grid-template-columns: 300px auto;
+}
+.logo img{
+    height: 70px;
+    padding: 0px 20px 0px 20px;
+}
+.headleft{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.headleft input{
+    padding: 10px 30px 10px 30px;
+}
+.headleft a{
+    color: black;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: 'Cinzel Decorative', serif;
+}
+
+/* nav section  */
+nav{
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto;
+    padding: 10px;
+    
+}
+.dropbtn {
+    color: palevioletred;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: cursive;
+    
+}
+.dropdown-content{
+    display: none;
+    background-color: rgb(160, 191, 189);
+    color: black;
+    padding: 4px;
+    
+}
+.dropdown-item{
+    padding: 0px 10px 0px 0px;
+    position: relative;
+    top: 10px;
+    left: 0px;
+}
+.dropdown-item h2{
+    color: palevioletred;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Cinzel Decorative', serif;
+}
+.dropdown-item a{
+    color: black;
+    font-size: 20px;
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown:hover .dropdown-content{
+    display: flex;
+    position: fixed;
+}
+
+/* aside section  */
+aside{
+    border-right: 8px solid grey;
+    grid-row-start: 3;
+    grid-row-end: 6;
+    height: 1400px;
+    padding: 10px 10px 10px 10px;
+    background-color: lightgoldenrodyellow;
+   
+}
+aside select{
+    width: 100%;
+    padding: 10px;
+}
+.category{
+    margin-top: 10px;
+    border-top: 2px solid grey;
+    border-bottom: 2px solid grey;
+    padding: 6px 0px 10px 0px;
+}
+.category h3{
+    font-size: 25px;
+    color: lightseagreen;
+}
+.gender{
+    border-bottom: 2px solid grey;
+    padding-bottom: 10px;
+}
+.gender button{
+    border-radius: 25px;
+    padding: 10px;
+}
+.fabric{
+    border-bottom: 2px solid grey;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.fabric select{
+    border: none;
+    font-size: 20px;
+    background-color: transparent;
+}
+.color{
+    border-bottom: 2px solid grey;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.color select{
+    border: none;
+    font-size: 20px;
+    background-color: transparent;
+}
+.price{
+    border-bottom: 2px solid grey;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.price select{
+    border: none;
+    font-size: 20px;
+    background-color: transparent;
+}
+.occassion{
+    border-bottom: 2px solid grey;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.occassion select{
+    border: none;
+    font-size: 20px;
+    background-color: transparent;
+}
+.material{
+    border-bottom: 2px solid grey;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.material select{
+    border: none;
+    font-size: 20px;
+    background-color: transparent;
+}
+.border{
+    border-bottom: 2px solid grey;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.border select{
+    border: none;
+    font-size: 20px;
+    background-color: transparent;
+}
+.brand{
+    border-bottom: 2px solid grey;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.brand select{
+    border: none;
+    font-size: 20px;
+    background-color: transparent;
+}
+.models{
+    border-bottom: 2px solid grey;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.models select{
+    border: none;
+    font-size: 20px;
+    background-color: transparent;
+}
+.period{
+    border-bottom: 2px solid grey;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.period select{
+    border: none;
+    font-size: 20px;
+    background-color: transparent;
+}
+
+
+/* section  */
+section{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    height: 1400px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 10px;
+    row-gap: 10px;
+    margin-left: 20px;
+}
+.item{
+    border: 1px solid palegoldenrod;
+    padding: 10px 10px 10px 10px;
+}
+.item img{
+    width: 300px;
+    height: 300px;
+}
+
+/* footer section  */
+
+footer{
+    border: 1px solid black;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    height: 250px;
+    display: grid;
+    grid-template-columns: 300px 300px 500px;
+    background-color: grey;
+    color: white;
+    padding-left: 30px;
+}
+footer h1{
+    color: palevioletred;
+    font-family: 'Cinzel Decorative', serif;
+    margin: 50px 0 0 0;
+}
+.social_icons a{
+    display: block;
+    padding: 4px 0px 4px 60px;
+    
+}
+.social_icons a i{
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 25px;
+    color: white;
+    font-size: 20px;
+}
+.contact p{
+    font-size: 20px;
+}
