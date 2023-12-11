@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <style>
+    body{
+        background-image: url(./download.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+    }
+    .box1{
+        background-color: red;
+        height: 100px;
+        width: 100px;
+        border-radius: 10px;
+        transform: translate(70vw,60vh);
+        animation: box1 4s infinite;
+        transition: 3s;
+    }
+    @keyframes box1{
+        0%{
+            background-color: green;
+        }
+        25%{
+            background-color: yellow;
+        }
+        75%{
+            background-color: blue;
+        }
+        100%{
+            background-color: red;
+        }
+    }
+    .box2{
+        background-color: green;
+        height: 100px;
+        width: 100px;
+        border-radius: 10px;
+        transform: translate(77vw,50vh);
+        animation: box2 4s infinite;
+        transition: 3s;
+    }
+    @keyframes box2{
+        0%{
+            background-color: yellow;
+        }
+        25%{
+            background-color: blue;
+        }
+        75%{
+            background-color: red;
+        }
+        100%{
+            background-color: green;
+        }
+    }
+    .box3{
+        background-color: blue;
+        height: 100px;
+        width: 100px;
+        border-radius: 10px;
+        transform: translate(70vw,47vh);
+        animation: box3 4s infinite;
+        transition: 3s;
+    }
+    @keyframes box3{
+        0%{
+            background-color: red;
+        }
+        25%{
+            background-color: green;
+        }
+        75%{
+            background-color: yellow;
+        }
+        100%{
+            background-color: blue;
+        }
+    }
+    .box4{
+        background-color: yellow;
+        height: 100px;
+        width: 100px;
+        border-radius: 10px;
+        transform: translate(77vw,37vh);
+        animation: box4 4s infinite;
+        transition: 3s;
+    }
+    @keyframes box4{
+        0%{
+            background-color: blue;
+        }
+        25%{
+            background-color: red;
+        }
+        75%{
+            background-color: green;
+        }
+        100%{
+            background-color: yellow;
+        }
+    }
+    .box5{
+        animation: box5 2s linear forwards;
+        opacity: 0;
+        transform: translatey(100%);
+        font-size: 50px;
+        /* overflow: hidden; */
+        text-align: center;
+        color: rgb(11, 82, 82);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    @keyframes box5{
+        100%{
+            opacity: 1;
+            transform: translatey(0);
+        }
+    }
+   </style>
+</head>
+<body>
+    <div class="box1"></div>
+    <div class="box2"></div>
+    <div class="box3"></div>
+    <div class="box4"></div>
+    <div class="box5">Windows</div>
+</body>
+</html>
